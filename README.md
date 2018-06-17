@@ -1,5 +1,5 @@
 # spring-cloud-demo
-项目为使用spring cloud搭建的demo，包括了`服务发现Eureka`、`WebService客户端Feign`、`hystrix熔断器`、`spring config`
+项目为使用spring cloud搭建的demo，包括了`服务发现Eureka`、`WebService客户端Feign`、`hystrix熔断器`、`spring config`、`网关zuul`
 
 ## 模块说明
 ### eureka
