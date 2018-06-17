@@ -13,6 +13,7 @@
         <module>service</module>
         <module>client</module>
         <module>configserver</module>
+        <module>gateway</module>
     </modules>
 
     <parent>
