@@ -15,3 +15,6 @@
 ，
 ### configserver
 配置服务器，启动之后访问[获取配置信息](http://localhost:7001/compute-consumer/default)，其中配置信息记录在文件`src/main/resources/client/compute-consumer-default.properties`中，另外可以在`application.properties`中修改配置信息
+
+### gateway
+网关，demo中配置了匹配到`/api-compute/**`的url都会转发到`compute-consumer`服务中，并且增加了过滤器，需要带上`access_token`参数(demo中access_token随意字符串即可)，启动之后访问[网关-客户端接口(计算两数字相加)](http://localhost:5555/api-compute/add?a=10&b=2&access_token=123)
